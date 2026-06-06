@@ -13,6 +13,6 @@ An automated privilege escalation information gathering tool for Linux.
 
 ## Install & Run
 ```bash
-curl -s https://raw.githubusercontent.com/pythava/Pecthava/refs/heads/main/pecthava.sh | sh
+curl -s https://raw.githubusercontent.com/pythava/Pecthava/refs/heads/main/pecthava.sh | bash
 ```
 

@@ -10,3 +10,9 @@ An automated privilege escalation information gathering tool for Linux.
 ![Pecthava](./images/pecthava_test.png)
 
 #### Since I made this for personal use, it is lacking in many aspects.
+
+## Install & Run
+```bash
+curl -s https://raw.githubusercontent.com/pythava/Pecthava/refs/heads/main/pecthava.sh | sh
+```
+

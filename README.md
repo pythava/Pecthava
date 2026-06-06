@@ -1,4 +1,4 @@
-# Pecthava - V 1.0.0
+# Pecthava - Version 1.0.0
 
 An automated privilege escalation information gathering tool for Linux.
 

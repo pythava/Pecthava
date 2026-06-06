@@ -8,3 +8,5 @@ An automated privilege escalation information gathering tool for Linux.
 ### Screenshot
 
 ![Pecthava](./images/pecthava_test.png)
+
+#### Since I made this for personal use, it is lacking in many aspects.

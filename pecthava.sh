@@ -29,6 +29,8 @@ down_line(){
         echo -e "\e[1;34m╰────────────────────────────────────────────────────────────────────────────────────────╯\e[0m"
 }
 
+
+# 초록색(해커 색상)으로 배너 출력
 echo -e "\e[1;31m"
 cat << 'EOF'
     ____               __  __                      
@@ -39,11 +41,15 @@ cat << 'EOF'
 
                 [ Version 1.0.0 ]
 EOF
-echo -e "\e[0m"
+echo -e "\e[0m" # 색상 초기화
 
 
 up_line "sudo -l"
 sudo -l | grep -v "Matching"
+down_line
+
+up_line "Cron Tab"
+cat /etc/crontab
 down_line
 
 up_line "SUID FILE"
